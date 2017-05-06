@@ -1,0 +1,463 @@
+'Dataset'|'DatasetType'|'ElementNumber'|'ElementName'|'Attribute'|
+'DEMDataSet'|'element'|'dState.01'|'State Required Element'|'TIMESTAMP'|
+'DEMDataSet'|'group'|'dCustomConfiguration.CustomGroup'|''|'CustomElementID'|
+'DEMDataSet'|'element'|'dCustomConfiguration.01'|'Custom Data Element Title'|'nemsisElement'|
+'DEMDataSet'|'element'|'dCustomConfiguration.06'|'Custom Data Element Potential Values'|'nemsisCode'|
+'DEMDataSet'|'element'|'dCustomConfiguration.06'|'Custom Data Element Potential Values'|'customValueDescription'|
+'DEMDataSet'|'group'|'DemographicReport'|''|'timeStamp'|
+'DEMDataSet'|'element'|'dAgency.03'|'EMS Agency Name'|'NV'|
+'DEMDataSet'|'group'|'dAgency.AgencyServiceGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.06'|'EMS Agency Service Area County(ies)'|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.07'|'EMS Agency Census Tracts'|'NV'|
+'DEMDataSet'|'element'|'dAgency.07'|'EMS Agency Census Tracts'|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.08'|'EMS Agency Service Area ZIP Codes'|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.08'|'EMS Agency Service Area ZIP Codes'|'NV'|
+'DEMDataSet'|'element'|'dAgency.10'|'Other Types of Service'|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.10'|'Other Types of Service'|'NV'|
+'DEMDataSet'|'group'|'dAgency.AgencyYearGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.16'|'Total Primary Service Area Size'|'NV'|
+'DEMDataSet'|'element'|'dAgency.17'|'Total Service Area Population'|'NV'|
+'DEMDataSet'|'element'|'dAgency.18'|'911 EMS Call Center Volume per Year'|'NV'|
+'DEMDataSet'|'element'|'dAgency.19'|'EMS Dispatch Volume per Year'|'NV'|
+'DEMDataSet'|'element'|'dAgency.20'|'EMS Patient Transport Volume per Year'|'NV'|
+'DEMDataSet'|'element'|'dAgency.21'|'EMS Patient Contact Volume per Year'|'NV'|
+'DEMDataSet'|'element'|'dAgency.22'|'EMS Billable Calls per Year'|'NV'|
+'DEMDataSet'|'element'|'dAgency.25'|'National Provider Identifier'|'NV'|
+'DEMDataSet'|'element'|'dAgency.25'|'National Provider Identifier'|'CorrelationID'|
+'DEMDataSet'|'element'|'dAgency.26'|'Fire Department ID Number'|'NV'|
+'DEMDataSet'|'element'|'dAgency.26'|'Fire Department ID Number'|'CorrelationID'|
+'DEMDataSet'|'group'|'dContact.ContactInfoGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dContact.01'|'Agency Contact Type'|'NV'|
+'DEMDataSet'|'element'|'dContact.02'|'Agency Contact Last Name'|'NV'|
+'DEMDataSet'|'element'|'dContact.03'|'Agency Contact First Name'|'NV'|
+'DEMDataSet'|'element'|'dContact.05'|'Agency Contact Address'|'NV'|
+'DEMDataSet'|'element'|'dContact.05'|'Agency Contact Address'|'StreetAddress2'|
+'DEMDataSet'|'element'|'dContact.06'|'Agency Contact City'|'NV'|
+'DEMDataSet'|'element'|'dContact.07'|'Agency Contact State'|'NV'|
+'DEMDataSet'|'element'|'dContact.08'|'Agency Contact ZIP Code'|'NV'|
+'DEMDataSet'|'element'|'dContact.10'|'Agency Contact Phone Number'|'PhoneNumberType'|
+'DEMDataSet'|'element'|'dContact.10'|'Agency Contact Phone Number'|'CorrelationID'|
+'DEMDataSet'|'element'|'dContact.10'|'Agency Contact Phone Number'|'NV'|
+'DEMDataSet'|'element'|'dContact.11'|'Agency Contact Email Address'|'NV'|
+'DEMDataSet'|'element'|'dContact.11'|'Agency Contact Email Address'|'EmailAddressType'|
+'DEMDataSet'|'element'|'dContact.11'|'Agency Contact Email Address'|'CorrelationID'|
+'DEMDataSet'|'element'|'dContact.12'|'EMS Agency Contact Web Address'|'NV'|
+'DEMDataSet'|'element'|'dContact.13'|'Agency Medical Director Degree'|'NV'|
+'DEMDataSet'|'element'|'dContact.14'|'Agency Medical Director Board Certification Type'|'NV'|
+'DEMDataSet'|'element'|'dContact.14'|'Agency Medical Director Board Certification Type'|'CorrelationID'|
+'DEMDataSet'|'group'|'dConfiguration.ConfigurationGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.02'|'State Certification/Licensure Levels'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.03'|'Procedures Permitted by the State'|'NV'|
+'DEMDataSet'|'element'|'dConfiguration.03'|'Procedures Permitted by the State'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.04'|'Medications Permitted by the State'|'NV'|
+'DEMDataSet'|'element'|'dConfiguration.04'|'Medications Permitted by the State'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.05'|'Protocols Permitted by the State'|'NV'|
+'DEMDataSet'|'element'|'dConfiguration.05'|'Protocols Permitted by the State'|'CorrelationID'|
+'DEMDataSet'|'group'|'dConfiguration.ProcedureGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.07'|'EMS Agency Procedures'|'CorrelationID'|
+'DEMDataSet'|'group'|'dConfiguration.MedicationGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.09'|'EMS Agency Medications'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.10'|'EMS Agency Protocols'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.11'|'EMS Agency Specialty Service Capability'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.14'|'EMD Vendor'|'NV'|
+'DEMDataSet'|'element'|'dConfiguration.14'|'EMD Vendor'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.15'|'Patient Monitoring Capability(ies)'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.16'|'Crew Call Sign'|'CorrelationID'|
+'DEMDataSet'|'element'|'dConfiguration.17'|'Dispatch Center (CAD) Name or ID'|'CorrelationID'|
+'DEMDataSet'|'group'|'dLocation.LocationGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dLocation.06'|'EMS Location Address'|'StreetAddress2'|
+'DEMDataSet'|'element'|'dLocation.12'|'EMS Location Phone Number'|'PhoneNumberType'|
+'DEMDataSet'|'element'|'dLocation.12'|'EMS Location Phone Number'|'CorrelationID'|
+'DEMDataSet'|'group'|'dVehicle.VehicleGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dVehicle.01'|'Unit/Vehicle Number'|'NV'|
+'DEMDataSet'|'element'|'dVehicle.04'|'Vehicle Type'|'NV'|
+'DEMDataSet'|'group'|'dVehicle.VehicleCertificationLevelsGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dVehicle.10'|'Vehicle Model Year'|'NV'|
+'DEMDataSet'|'group'|'dVehicle.YearGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dVehicle.13'|'Annual Vehicle Miles/Kilometers'|'DistanceUnit'|
+'DEMDataSet'|'group'|'dPersonnel.PersonnelGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.01'|'EMS Personnel's Last Name'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.02'|'EMS Personnel's First Name'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.03'|'EMS Personnel's Middle Name/Initial'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.04'|'EMS Personnel's Mailing Address'|'StreetAddress2'|
+'DEMDataSet'|'element'|'dPersonnel.09'|'EMS Personnel's Phone Number'|'PhoneNumberType'|
+'DEMDataSet'|'element'|'dPersonnel.09'|'EMS Personnel's Phone Number'|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.10'|'EMS Personnel's Email Address'|'EmailAddressType'|
+'DEMDataSet'|'element'|'dPersonnel.10'|'EMS Personnel's Email Address'|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.11'|'EMS Personnel's Date of Birth'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.12'|'EMS Personnel's Gender'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.13'|'EMS Personnel's Race'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.13'|'EMS Personnel's Race'|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.16'|'EMS Personnel's Degree Subject/Field of Study'|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.17'|'EMS Personnel's Motor Vehicle License Type'|'CorrelationID'|
+'DEMDataSet'|'group'|'dPersonnel.ImmunizationsGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.20'|'EMS Personnel's Foreign Language Ability'|'CorrelationID'|
+'DEMDataSet'|'group'|'dPersonnel.LicensureGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dPersonnel.22'|'EMS Personnel's State of Licensure'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.23'|'EMS Personnel's State's Licensure ID Number'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.24'|'EMS Personnel's State EMS Certification Licensure Level'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.31'|'EMS Personnel's Employment Status'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.32'|'EMS Personnel's Employment Status Date'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.34'|'EMS Personnel's Primary EMS Job Role'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.35'|'EMS Personnel's Other Job Responsibilities'|'NV'|
+'DEMDataSet'|'element'|'dPersonnel.35'|'EMS Personnel's Other Job Responsibilities'|'CorrelationID'|
+'DEMDataSet'|'group'|'dPersonnel.CertificationLevelGroup'|''|'CorrelationID'|
+'DEMDataSet'|'group'|'dDevice.DeviceGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dDevice.03'|'Medical Device Type'|'CorrelationID'|
+'DEMDataSet'|'group'|'dFacilityGroup'|''|'CorrelationID'|
+'DEMDataSet'|'group'|'dFacility.FacilityGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dFacility.04'|'Hospital Designations'|'CorrelationID'|
+'DEMDataSet'|'element'|'dFacility.05'|'Facility National Provider Identifier'|'CorrelationID'|
+'DEMDataSet'|'element'|'dFacility.07'|'Facility Street Address'|'StreetAddress2'|
+'DEMDataSet'|'element'|'dFacility.15'|'Facility Phone Number'|'PhoneNumberType'|
+'DEMDataSet'|'element'|'dFacility.15'|'Facility Phone Number'|'CorrelationID'|
+'DEMDataSet'|'group'|'dCustomResults.ResultsGroup'|''|'CorrelationID'|
+'DEMDataSet'|'element'|'dCustomResults.01'|'Custom Data Element Result'|'NV'|
+'DEMDataSet'|'element'|'dCustomResults.01'|'Custom Data Element Result'|'PN'|
+'EMSDataSet'|'element'|'eState.01'|'State Required Element'|'TIMESTAMP'|
+'EMSDataSet'|'group'|'eCustomConfiguration.CustomGroup'|''|'CustomElementID'|
+'EMSDataSet'|'element'|'eCustomConfiguration.01'|'Custom Data Element Title'|'nemsisElement'|
+'EMSDataSet'|'element'|'eCustomConfiguration.06'|'Custom Data Element Potential Values'|'nemsisCode'|
+'EMSDataSet'|'element'|'eCustomConfiguration.06'|'Custom Data Element Potential Values'|'customValueDescription'|
+'EMSDataSet'|'element'|'eResponse.02'|'EMS Agency Name'|'NV'|
+'EMSDataSet'|'element'|'eResponse.03'|'Incident Number'|'NV'|
+'EMSDataSet'|'element'|'eResponse.04'|'EMS Response Number'|'NV'|
+'EMSDataSet'|'element'|'eResponse.08'|'Type of Dispatch Delay'|'NV'|
+'EMSDataSet'|'element'|'eResponse.08'|'Type of Dispatch Delay'|'CorrelationID'|
+'EMSDataSet'|'element'|'eResponse.09'|'Type of Response Delay'|'NV'|
+'EMSDataSet'|'element'|'eResponse.09'|'Type of Response Delay'|'CorrelationID'|
+'EMSDataSet'|'element'|'eResponse.10'|'Type of Scene Delay'|'NV'|
+'EMSDataSet'|'element'|'eResponse.10'|'Type of Scene Delay'|'CorrelationID'|
+'EMSDataSet'|'element'|'eResponse.11'|'Type of Transport Delay'|'NV'|
+'EMSDataSet'|'element'|'eResponse.11'|'Type of Transport Delay'|'CorrelationID'|
+'EMSDataSet'|'element'|'eResponse.12'|'Type of Turn-Around Delay'|'NV'|
+'EMSDataSet'|'element'|'eResponse.12'|'Type of Turn-Around Delay'|'CorrelationID'|
+'EMSDataSet'|'element'|'eResponse.24'|'Additional Response Mode Descriptors'|'NV'|
+'EMSDataSet'|'element'|'eResponse.24'|'Additional Response Mode Descriptors'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDispatch.02'|'EMD Performed'|'NV'|
+'EMSDataSet'|'group'|'eCrew.CrewGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eCrew.01'|'Crew Member ID'|'NV'|
+'EMSDataSet'|'element'|'eCrew.02'|'Crew Member Level'|'NV'|
+'EMSDataSet'|'element'|'eCrew.03'|'Crew Member Response Role'|'NV'|
+'EMSDataSet'|'element'|'eCrew.03'|'Crew Member Response Role'|'CorrelationID'|
+'EMSDataSet'|'element'|'eTimes.01'|'PSAP Call Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.05'|'Unit En Route Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.06'|'Unit Arrived on Scene Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.07'|'Arrived at Patient Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.08'|'Transfer of EMS Patient Care Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.09'|'Unit Left Scene Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.11'|'Patient Arrived at Destination Date/Time'|'NV'|
+'EMSDataSet'|'element'|'eTimes.12'|'Destination Patient Transfer of Care Date/Time'|'NV'|
+'EMSDataSet'|'element'|'ePatient.02'|'Last Name'|'NV'|
+'EMSDataSet'|'element'|'ePatient.02'|'Last Name'|'PN'|
+'EMSDataSet'|'element'|'ePatient.03'|'First Name'|'NV'|
+'EMSDataSet'|'element'|'ePatient.03'|'First Name'|'PN'|
+'EMSDataSet'|'element'|'ePatient.05'|'Patient's Home Address'|'StreetAddress2'|
+'EMSDataSet'|'element'|'ePatient.07'|'Patient's Home County'|'NV'|
+'EMSDataSet'|'element'|'ePatient.08'|'Patient's Home State'|'NV'|
+'EMSDataSet'|'element'|'ePatient.09'|'Patient's Home ZIP Code'|'NV'|
+'EMSDataSet'|'element'|'ePatient.13'|'Gender'|'NV'|
+'EMSDataSet'|'element'|'ePatient.14'|'Race'|'NV'|
+'EMSDataSet'|'element'|'ePatient.14'|'Race'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePatient.15'|'Age'|'NV'|
+'EMSDataSet'|'element'|'ePatient.16'|'Age Units'|'NV'|
+'EMSDataSet'|'element'|'ePatient.17'|'Date of Birth'|'NV'|
+'EMSDataSet'|'element'|'ePatient.17'|'Date of Birth'|'PN'|
+'EMSDataSet'|'element'|'ePatient.18'|'Patient's Phone Number'|'PhoneNumberType'|
+'EMSDataSet'|'element'|'ePatient.18'|'Patient's Phone Number'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePatient.19'|'Patient's Email Address'|'EmailAddressType'|
+'EMSDataSet'|'element'|'ePatient.19'|'Patient's Email Address'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.01'|'Primary Method of Payment'|'NV'|
+'EMSDataSet'|'element'|'ePayment.04'|'Reason for Physician Certification Statement'|'CorrelationID'|
+'EMSDataSet'|'group'|'ePayment.InsuranceGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.12'|'Insurance Company Address'|'StreetAddress2'|
+'EMSDataSet'|'element'|'ePayment.26'|'Closest Relative/ Guardian Street Address'|'StreetAddress2'|
+'EMSDataSet'|'element'|'ePayment.31'|'Closest Relative/ Guardian Phone Number'|'PhoneNumberType'|
+'EMSDataSet'|'element'|'ePayment.31'|'Closest Relative/ Guardian Phone Number'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.34'|'Patient's Employer's Address'|'StreetAddress2'|
+'EMSDataSet'|'element'|'ePayment.39'|'Patient's Employer's Primary Phone Number'|'PhoneNumberType'|
+'EMSDataSet'|'element'|'ePayment.41'|'Patient Transport Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.42'|'Specialty Care Transport Care Provider'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.44'|'Ambulance Transport Reason Code'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.47'|'Ambulance Conditions Indicator'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.50'|'CMS Service Level'|'NV'|
+'EMSDataSet'|'element'|'ePayment.51'|'EMS Condition Code'|'CorrelationID'|
+'EMSDataSet'|'element'|'ePayment.52'|'CMS Transportation Indicator'|'CorrelationID'|
+'EMSDataSet'|'group'|'ePayment.SupplyItemGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eScene.01'|'First EMS Unit on Scene'|'NV'|
+'EMSDataSet'|'group'|'eScene.ResponderGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eScene.06'|'Number of Patients at Scene'|'NV'|
+'EMSDataSet'|'element'|'eScene.07'|'Mass Casualty Incident'|'NV'|
+'EMSDataSet'|'element'|'eScene.08'|'Triage Classification for MCI Patient'|'NV'|
+'EMSDataSet'|'element'|'eScene.09'|'Incident Location Type'|'NV'|
+'EMSDataSet'|'element'|'eScene.10'|'Incident Facility Code'|'NV'|
+'EMSDataSet'|'element'|'eScene.14'|'Mile Post or Major Roadway'|'NV'|
+'EMSDataSet'|'element'|'eScene.15'|'Incident Street Address'|'NV'|
+'EMSDataSet'|'element'|'eScene.15'|'Incident Street Address'|'StreetAddress2'|
+'EMSDataSet'|'element'|'eScene.16'|'Incident Apartment, Suite, or Room'|'NV'|
+'EMSDataSet'|'element'|'eScene.17'|'Incident City'|'NV'|
+'EMSDataSet'|'element'|'eScene.18'|'Incident State'|'NV'|
+'EMSDataSet'|'element'|'eScene.19'|'Incident ZIP Code'|'NV'|
+'EMSDataSet'|'element'|'eScene.20'|'Scene Cross Street or Directions'|'NV'|
+'EMSDataSet'|'element'|'eScene.21'|'Incident County'|'NV'|
+'EMSDataSet'|'element'|'eSituation.01'|'Date/Time of Symptom Onset'|'NV'|
+'EMSDataSet'|'element'|'eSituation.02'|'Possible Injury'|'NV'|
+'EMSDataSet'|'group'|'eSituation.PatientComplaintGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eSituation.03'|'Complaint Type'|'NV'|
+'EMSDataSet'|'element'|'eSituation.04'|'Complaint'|'NV'|
+'EMSDataSet'|'element'|'eSituation.05'|'Duration of Complaint'|'NV'|
+'EMSDataSet'|'element'|'eSituation.06'|'Time Units of Duration of Complaint'|'NV'|
+'EMSDataSet'|'element'|'eSituation.07'|'Chief Complaint Anatomic Location'|'NV'|
+'EMSDataSet'|'element'|'eSituation.08'|'Chief Complaint Organ System'|'NV'|
+'EMSDataSet'|'element'|'eSituation.09'|'Primary Symptom'|'NV'|
+'EMSDataSet'|'element'|'eSituation.10'|'Other Associated Symptoms'|'NV'|
+'EMSDataSet'|'element'|'eSituation.10'|'Other Associated Symptoms'|'CorrelationID'|
+'EMSDataSet'|'element'|'eSituation.11'|'Provider's Primary Impression'|'NV'|
+'EMSDataSet'|'element'|'eSituation.12'|'Provider's Secondary Impressions'|'NV'|
+'EMSDataSet'|'element'|'eSituation.12'|'Provider's Secondary Impressions'|'CorrelationID'|
+'EMSDataSet'|'element'|'eSituation.13'|'Initial Patient Acuity'|'NV'|
+'EMSDataSet'|'element'|'eSituation.14'|'Work-Related Illness/Injury'|'NV'|
+'EMSDataSet'|'element'|'eSituation.17'|'Patient Activity'|'CorrelationID'|
+'EMSDataSet'|'element'|'eSituation.17'|'Patient Activity'|'NV'|
+'EMSDataSet'|'element'|'eInjury.01'|'Cause of Injury'|'NV'|
+'EMSDataSet'|'element'|'eInjury.01'|'Cause of Injury'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.02'|'Mechanism of Injury'|'NV'|
+'EMSDataSet'|'element'|'eInjury.02'|'Mechanism of Injury'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.03'|'Trauma Center Criteria'|'NV'|
+'EMSDataSet'|'element'|'eInjury.03'|'Trauma Center Criteria'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.04'|'Vehicular, Pedestrian, or Other Injury Risk Factor'|'NV'|
+'EMSDataSet'|'element'|'eInjury.04'|'Vehicular, Pedestrian, or Other Injury Risk Factor'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.07'|'Use of Occupant Safety Equipment'|'NV'|
+'EMSDataSet'|'element'|'eInjury.07'|'Use of Occupant Safety Equipment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.08'|'Airbag Deployment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.10'|'OSHA Personal Protective Equipment Used'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.13'|'ACN Call Back Phone Number'|'PhoneNumberType'|
+'EMSDataSet'|'element'|'eInjury.13'|'ACN Call Back Phone Number'|'CorrelationID'|
+'EMSDataSet'|'element'|'eInjury.22'|'ACN Incident Delta Velocity'|'DeltaVelocityOrdinal'|
+'EMSDataSet'|'element'|'eInjury.22'|'ACN Incident Delta Velocity'|'VelocityUnit'|
+'EMSDataSet'|'element'|'eInjury.22'|'ACN Incident Delta Velocity'|'CorrelationID'|
+'EMSDataSet'|'group'|'eInjury.SeatGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.01'|'Cardiac Arrest'|'NV'|
+'EMSDataSet'|'element'|'eArrest.02'|'Cardiac Arrest Etiology'|'NV'|
+'EMSDataSet'|'element'|'eArrest.03'|'Resuscitation Attempted By EMS'|'NV'|
+'EMSDataSet'|'element'|'eArrest.03'|'Resuscitation Attempted By EMS'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.04'|'Arrest Witnessed By'|'NV'|
+'EMSDataSet'|'element'|'eArrest.04'|'Arrest Witnessed By'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.05'|'CPR Care Provided Prior to EMS Arrival'|'NV'|
+'EMSDataSet'|'element'|'eArrest.06'|'Who Provided CPR Prior to EMS Arrival'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.07'|'AED Use Prior to EMS Arrival'|'NV'|
+'EMSDataSet'|'element'|'eArrest.08'|'Who Used AED Prior to EMS Arrival'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.09'|'Type of CPR Provided'|'NV'|
+'EMSDataSet'|'element'|'eArrest.09'|'Type of CPR Provided'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.11'|'First Monitored Arrest Rhythm of the Patient'|'NV'|
+'EMSDataSet'|'element'|'eArrest.12'|'Any Return of Spontaneous Circulation'|'NV'|
+'EMSDataSet'|'element'|'eArrest.12'|'Any Return of Spontaneous Circulation'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.14'|'Date/Time of Cardiac Arrest'|'NV'|
+'EMSDataSet'|'element'|'eArrest.15'|'Date/Time Resuscitation Discontinued'|'NV'|
+'EMSDataSet'|'element'|'eArrest.16'|'Reason CPR/Resuscitation Discontinued'|'NV'|
+'EMSDataSet'|'element'|'eArrest.17'|'Cardiac Rhythm on Arrival at Destination'|'NV'|
+'EMSDataSet'|'element'|'eArrest.17'|'Cardiac Rhythm on Arrival at Destination'|'CorrelationID'|
+'EMSDataSet'|'element'|'eArrest.18'|'End of EMS Cardiac Arrest Event'|'NV'|
+'EMSDataSet'|'element'|'eHistory.01'|'Barriers to Patient Care'|'NV'|
+'EMSDataSet'|'element'|'eHistory.01'|'Barriers to Patient Care'|'CorrelationID'|
+'EMSDataSet'|'group'|'eHistory.PractitionerGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.05'|'Advance Directives'|'NV'|
+'EMSDataSet'|'element'|'eHistory.05'|'Advance Directives'|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.06'|'Medication Allergies'|'NV'|
+'EMSDataSet'|'element'|'eHistory.06'|'Medication Allergies'|'PN'|
+'EMSDataSet'|'element'|'eHistory.06'|'Medication Allergies'|'CodeType'|
+'EMSDataSet'|'element'|'eHistory.06'|'Medication Allergies'|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.07'|'Environmental/Food Allergies'|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.08'|'Medical/Surgical History'|'NV'|
+'EMSDataSet'|'element'|'eHistory.08'|'Medical/Surgical History'|'PN'|
+'EMSDataSet'|'element'|'eHistory.08'|'Medical/Surgical History'|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.09'|'Medical History Obtained From'|'CorrelationID'|
+'EMSDataSet'|'group'|'eHistory.ImmunizationsGroup'|''|'CorrelationID'|
+'EMSDataSet'|'group'|'eHistory.CurrentMedsGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.12'|'Current Medications'|'PN'|
+'EMSDataSet'|'element'|'eHistory.12'|'Current Medications'|'NV'|
+'EMSDataSet'|'element'|'eHistory.17'|'Alcohol/Drug Use Indicators'|'PN'|
+'EMSDataSet'|'element'|'eHistory.17'|'Alcohol/Drug Use Indicators'|'NV'|
+'EMSDataSet'|'element'|'eHistory.17'|'Alcohol/Drug Use Indicators'|'CorrelationID'|
+'EMSDataSet'|'element'|'eHistory.18'|'Pregnancy'|'PN'|
+'EMSDataSet'|'element'|'eNarrative.01'|'Patient Care Report Narrative'|'NV'|
+'EMSDataSet'|'group'|'eVitals.VitalGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eVitals.01'|'Date/Time Vital Signs Taken'|'NV'|
+'EMSDataSet'|'element'|'eVitals.02'|'Obtained Prior to this Unit's EMS Care'|'NV'|
+'EMSDataSet'|'group'|'eVitals.CardiacRhythmGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eVitals.03'|'Cardiac Rhythm / Electrocardiography (ECG)'|'PN'|
+'EMSDataSet'|'element'|'eVitals.03'|'Cardiac Rhythm / Electrocardiography (ECG)'|'NV'|
+'EMSDataSet'|'element'|'eVitals.03'|'Cardiac Rhythm / Electrocardiography (ECG)'|'CorrelationID'|
+'EMSDataSet'|'element'|'eVitals.04'|'ECG Type'|'NV'|
+'EMSDataSet'|'element'|'eVitals.05'|'Method of ECG Interpretation'|'NV'|
+'EMSDataSet'|'element'|'eVitals.05'|'Method of ECG Interpretation'|'CorrelationID'|
+'EMSDataSet'|'element'|'eVitals.06'|'SBP (Systolic Blood Pressure)'|'PN'|
+'EMSDataSet'|'element'|'eVitals.06'|'SBP (Systolic Blood Pressure)'|'NV'|
+'EMSDataSet'|'element'|'eVitals.07'|'DBP (Diastolic Blood Pressure)'|'PN'|
+'EMSDataSet'|'element'|'eVitals.07'|'DBP (Diastolic Blood Pressure)'|'NV'|
+'EMSDataSet'|'element'|'eVitals.08'|'Method of Blood Pressure Measurement'|'NV'|
+'EMSDataSet'|'element'|'eVitals.10'|'Heart Rate'|'PN'|
+'EMSDataSet'|'element'|'eVitals.10'|'Heart Rate'|'NV'|
+'EMSDataSet'|'element'|'eVitals.12'|'Pulse Oximetry'|'PN'|
+'EMSDataSet'|'element'|'eVitals.12'|'Pulse Oximetry'|'NV'|
+'EMSDataSet'|'element'|'eVitals.14'|'Respiratory Rate'|'PN'|
+'EMSDataSet'|'element'|'eVitals.14'|'Respiratory Rate'|'NV'|
+'EMSDataSet'|'element'|'eVitals.16'|'End Tidal Carbon Dioxide (ETCO2)'|'PN'|
+'EMSDataSet'|'element'|'eVitals.16'|'End Tidal Carbon Dioxide (ETCO2)'|'NV'|
+'EMSDataSet'|'element'|'eVitals.17'|'Carbon Monoxide (CO)'|'PN'|
+'EMSDataSet'|'element'|'eVitals.17'|'Carbon Monoxide (CO)'|'NV'|
+'EMSDataSet'|'element'|'eVitals.18'|'Blood Glucose Level'|'PN'|
+'EMSDataSet'|'element'|'eVitals.18'|'Blood Glucose Level'|'NV'|
+'EMSDataSet'|'element'|'eVitals.19'|'Glasgow Coma Score-Eye'|'PN'|
+'EMSDataSet'|'element'|'eVitals.19'|'Glasgow Coma Score-Eye'|'NV'|
+'EMSDataSet'|'element'|'eVitals.20'|'Glasgow Coma Score-Verbal'|'PN'|
+'EMSDataSet'|'element'|'eVitals.20'|'Glasgow Coma Score-Verbal'|'NV'|
+'EMSDataSet'|'element'|'eVitals.21'|'Glasgow Coma Score-Motor'|'PN'|
+'EMSDataSet'|'element'|'eVitals.21'|'Glasgow Coma Score-Motor'|'NV'|
+'EMSDataSet'|'element'|'eVitals.22'|'Glasgow Coma Score-Qualifier'|'NV'|
+'EMSDataSet'|'element'|'eVitals.22'|'Glasgow Coma Score-Qualifier'|'CorrelationID'|
+'EMSDataSet'|'element'|'eVitals.23'|'Total Glasgow Coma Score'|'PN'|
+'EMSDataSet'|'element'|'eVitals.23'|'Total Glasgow Coma Score'|'NV'|
+'EMSDataSet'|'element'|'eVitals.24'|'Temperature'|'PN'|
+'EMSDataSet'|'element'|'eVitals.24'|'Temperature'|'NV'|
+'EMSDataSet'|'element'|'eVitals.26'|'Level of Responsiveness (AVPU)'|'NV'|
+'EMSDataSet'|'element'|'eVitals.27'|'Pain Scale Score'|'PN'|
+'EMSDataSet'|'element'|'eVitals.27'|'Pain Scale Score'|'NV'|
+'EMSDataSet'|'element'|'eVitals.28'|'Pain Scale Type'|'NV'|
+'EMSDataSet'|'element'|'eVitals.29'|'Stroke Scale Score'|'PN'|
+'EMSDataSet'|'element'|'eVitals.29'|'Stroke Scale Score'|'NV'|
+'EMSDataSet'|'element'|'eVitals.30'|'Stroke Scale Type'|'NV'|
+'EMSDataSet'|'element'|'eVitals.31'|'Reperfusion Checklist'|'PN'|
+'EMSDataSet'|'element'|'eVitals.31'|'Reperfusion Checklist'|'NV'|
+'EMSDataSet'|'element'|'eVitals.32'|'APGAR'|'PN'|
+'EMSDataSet'|'element'|'eVitals.33'|'Revised Trauma Score'|'PN'|
+'EMSDataSet'|'group'|'eLabs.LabGroup'|''|'CorrelationID'|
+'EMSDataSet'|'group'|'eLabs.LabResultGroup'|''|'CorrelationID'|
+'EMSDataSet'|'group'|'eLabs.LabImageGroup'|''|'CorrelationID'|
+'EMSDataSet'|'group'|'eLabs.WaveformGraphicGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.01'|'Estimated Body Weight in Kilograms'|'NV'|
+'EMSDataSet'|'element'|'eExam.01'|'Estimated Body Weight in Kilograms'|'PN'|
+'EMSDataSet'|'element'|'eExam.02'|'Length Based Tape Measure'|'NV'|
+'EMSDataSet'|'element'|'eExam.02'|'Length Based Tape Measure'|'PN'|
+'EMSDataSet'|'group'|'eExam.AssessmentGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.04'|'Skin Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.04'|'Skin Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.05'|'Head Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.05'|'Head Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.06'|'Face Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.06'|'Face Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.07'|'Neck Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.07'|'Neck Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.08'|'Chest/Lungs Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.08'|'Chest/Lungs Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.09'|'Heart Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.09'|'Heart Assessment'|'PN'|
+'EMSDataSet'|'group'|'eExam.AbdomenGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.11'|'Abdomen Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.11'|'Abdomen Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.12'|'Pelvis/Genitourinary Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.12'|'Pelvis/Genitourinary Assessment'|'PN'|
+'EMSDataSet'|'group'|'eExam.SpineGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.14'|'Back and Spine Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.14'|'Back and Spine Assessment'|'PN'|
+'EMSDataSet'|'group'|'eExam.ExtremityGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.16'|'Extremities Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.16'|'Extremities Assessment'|'PN'|
+'EMSDataSet'|'group'|'eExam.EyeGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.18'|'Eye Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.18'|'Eye Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.19'|'Mental Status Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.19'|'Mental Status Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.20'|'Neurological Assessment'|'CorrelationID'|
+'EMSDataSet'|'element'|'eExam.20'|'Neurological Assessment'|'PN'|
+'EMSDataSet'|'element'|'eExam.21'|'Stroke/CVA Symptoms Resolved'|'PN'|
+'EMSDataSet'|'element'|'eExam.21'|'Stroke/CVA Symptoms Resolved'|'NV'|
+'EMSDataSet'|'group'|'eProtocols.ProtocolGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eProtocols.01'|'Protocols Used'|'NV'|
+'EMSDataSet'|'element'|'eProtocols.02'|'Protocol Age Category'|'NV'|
+'EMSDataSet'|'group'|'eMedications.MedicationGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eMedications.01'|'Date/Time Medication Administered'|'NV'|
+'EMSDataSet'|'element'|'eMedications.02'|'Medication Administered Prior to this Unit's EMS Care'|'NV'|
+'EMSDataSet'|'element'|'eMedications.03'|'Medication Given'|'PN'|
+'EMSDataSet'|'element'|'eMedications.03'|'Medication Given'|'NV'|
+'EMSDataSet'|'element'|'eMedications.05'|'Medication Dosage'|'NV'|
+'EMSDataSet'|'element'|'eMedications.06'|'Medication Dosage Units'|'NV'|
+'EMSDataSet'|'element'|'eMedications.07'|'Response to Medication'|'NV'|
+'EMSDataSet'|'element'|'eMedications.08'|'Medication Complication'|'NV'|
+'EMSDataSet'|'element'|'eMedications.08'|'Medication Complication'|'CorrelationID'|
+'EMSDataSet'|'element'|'eMedications.09'|'Medication Crew (Healthcare Professionals) ID'|'NV'|
+'EMSDataSet'|'element'|'eMedications.10'|'Role/Type of Person Administering Medication'|'NV'|
+'EMSDataSet'|'group'|'eProcedures.ProcedureGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eProcedures.01'|'Date/Time Procedure Performed'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.02'|'Procedure Performed Prior to this Unit's EMS Care'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.03'|'Procedure'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.03'|'Procedure'|'PN'|
+'EMSDataSet'|'element'|'eProcedures.05'|'Number of Procedure Attempts'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.06'|'Procedure Successful'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.07'|'Procedure Complication'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.07'|'Procedure Complication'|'CorrelationID'|
+'EMSDataSet'|'element'|'eProcedures.08'|'Response to Procedure'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.09'|'Procedure Crew Members ID'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.10'|'Role/Type of Person Performing the Procedure'|'NV'|
+'EMSDataSet'|'element'|'eProcedures.13'|'Vascular Access Location'|'NV'|
+'EMSDataSet'|'element'|'eAirway.01'|'Indications for Invasive Airway'|'NV'|
+'EMSDataSet'|'element'|'eAirway.01'|'Indications for Invasive Airway'|'CorrelationID'|
+'EMSDataSet'|'group'|'eAirway.ConfirmationGroup'|''|'CorrelationID'|
+'EMSDataSet'|'group'|'eAirway.ConfirmationGroup'|''|'ProcedureGroupCorrelationID'|
+'EMSDataSet'|'element'|'eAirway.02'|'Date/Time Airway Device Placement Confirmation'|'NV'|
+'EMSDataSet'|'element'|'eAirway.03'|'Airway Device Being Confirmed'|'NV'|
+'EMSDataSet'|'element'|'eAirway.04'|'Airway Device Placement Confirmed Method'|'CorrelationID'|
+'EMSDataSet'|'element'|'eAirway.04'|'Airway Device Placement Confirmed Method'|'NV'|
+'EMSDataSet'|'element'|'eAirway.06'|'Type of Individual Confirming Airway Device Placement'|'NV'|
+'EMSDataSet'|'element'|'eAirway.07'|'Crew Member ID'|'NV'|
+'EMSDataSet'|'element'|'eAirway.08'|'Airway Complications Encountered'|'NV'|
+'EMSDataSet'|'element'|'eAirway.08'|'Airway Complications Encountered'|'CorrelationID'|
+'EMSDataSet'|'element'|'eAirway.09'|'Suspected Reasons for Failed Airway Management'|'CorrelationID'|
+'EMSDataSet'|'group'|'eDevice.DeviceGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eDevice.03'|'Medical Device Event Type'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDevice.07'|'Medical Device ECG Lead'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDisposition.01'|'Destination/Transferred To, Name'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.02'|'Destination/Transferred To, Code'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.03'|'Destination Street Address'|'StreetAddress2'|
+'EMSDataSet'|'element'|'eDisposition.05'|'Destination State'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.06'|'Destination County'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.07'|'Destination ZIP Code'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.11'|'Number of Patients Transported in this EMS Unit'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.13'|'How Patient Was Moved to Ambulance'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDisposition.14'|'Position of Patient During Transport'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDisposition.16'|'EMS Transport Method'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.17'|'Transport Mode from Scene'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.18'|'Additional Transport Mode Descriptors'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.18'|'Additional Transport Mode Descriptors'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDisposition.19'|'Final Patient Acuity'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.20'|'Reason for Choosing Destination'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.20'|'Reason for Choosing Destination'|'CorrelationID'|
+'EMSDataSet'|'element'|'eDisposition.21'|'Type of Destination'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.22'|'Hospital In-Patient Destination'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.23'|'Hospital Capability'|'NV'|
+'EMSDataSet'|'group'|'eDisposition.HospitalTeamActivationGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eDisposition.24'|'Destination Team Pre-Arrival Alert or Activation'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.25'|'Date/Time of Destination Prearrival Alert or Activation'|'NV'|
+'EMSDataSet'|'element'|'eDisposition.26'|'Disposition Instructions Provided'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOutcome.01'|'Emergency Department Disposition'|'NV'|
+'EMSDataSet'|'element'|'eOutcome.02'|'Hospital Disposition'|'NV'|
+'EMSDataSet'|'group'|'eOutcome.ExternalDataGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eOutcome.08'|'Emergency Department Recorded Cause of Injury'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOutcome.09'|'Emergency Department Procedures'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOutcome.10'|'Emergency Department Diagnosis'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOutcome.12'|'Hospital Procedures'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOutcome.13'|'Hospital Diagnosis'|'CorrelationID'|
+'EMSDataSet'|'group'|'eCustomResults.ResultsGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eCustomResults.01'|'Custom Data Element Result'|'NV'|
+'EMSDataSet'|'element'|'eCustomResults.01'|'Custom Data Element Result'|'PN'|
+'EMSDataSet'|'element'|'eOther.02'|'Potential System of Care/Specialty/Registry Patient'|'CorrelationID'|
+'EMSDataSet'|'group'|'eOther.EMSCrewMemberGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eOther.03'|'Personal Protective Equipment Used'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOther.05'|'Suspected EMS Work Related Exposure, Injury, or Death'|'NV'|
+'EMSDataSet'|'element'|'eOther.06'|'The Type of Work-Related Injury, Death or Suspected Exposure'|'NV'|
+'EMSDataSet'|'element'|'eOther.06'|'The Type of Work-Related Injury, Death or Suspected Exposure'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOther.07'|'Natural, Suspected, Intentional, or Unintentional Disaster'|'CorrelationID'|
+'EMSDataSet'|'element'|'eOther.08'|'Crew Member Completing this Report'|'NV'|
+'EMSDataSet'|'group'|'eOther.FileGroup'|''|'CorrelationID'|
+'EMSDataSet'|'group'|'eOther.SignatureGroup'|''|'CorrelationID'|
+'EMSDataSet'|'element'|'eOther.13'|'Signature Reason'|'CorrelationID'|
