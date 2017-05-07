@@ -15,7 +15,14 @@ namespace NemsisDictionary
 
       Console.WriteLine($"ePatient.14 with code 2514009 is: { lookup?.CodeDescription }");
 
-      Console.ReadLine();
+      while (true)
+      {
+        Console.Write("Enter a code: ");
+        var input = Console.ReadLine();
+        var variousLookup = elementEnumerations.FirstOrDefault(q => q.Code == input);
+
+        Console.WriteLine($"code { input } is: { variousLookup?.CodeDescription }");
+      }
     }    
   }
 }
